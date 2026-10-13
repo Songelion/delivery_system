@@ -1,0 +1,67 @@
+{
+  "orders": [
+    {
+      "id": 4,
+      "customer_id": 3,
+      "order_date": "2025-04-23",
+      "status": "отменён",
+      "total": 0.0,
+      "items": []
+    },
+    {
+      "id": 3,
+      "customer_id": 2,
+      "order_date": "2025-04-22",
+      "status": "выполнен",
+      "total": 2200.0,
+      "items": [
+        {
+          "id": 3,
+          "order_id": 3,
+          "product_name": "Бургер",
+          "quantity": 2,
+          "price": 600.0
+        },
+        {
+          "id": 4,
+          "order_id": 3,
+          "product_name": "Кола",
+          "quantity": 2,
+          "price": 500.0
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "customer_id": 1,
+      "order_date": "2025-04-21",
+      "status": "в доставке",
+      "total": 800.0,
+      "items": [
+        {
+          "id": 2,
+          "order_id": 2,
+          "product_name": "Суши-сет",
+          "quantity": 1,
+          "price": 800.0
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "customer_id": 1,
+      "order_date": "2025-04-20",
+      "status": "новый",
+      "total": 1500.0,
+      "items": [
+        {
+          "id": 1,
+          "order_id": 1,
+          "product_name": "Пицца Маргарита",
+          "quantity": 2,
+          "price": 750.0
+        }
+      ]
+    }
+  ]
+}
