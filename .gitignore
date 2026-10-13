@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+
+logs/*.log
+
+data/*.db
+data/*.json
+orders_backup.json
+orders_cli.json
+
+.DS_Store
